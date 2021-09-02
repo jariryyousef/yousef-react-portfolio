@@ -148,7 +148,7 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            201 project
                           </h6>
                           <p className="description mt-3">
                             Argon is a great free UI package based on Bootstrap
@@ -184,7 +184,7 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                          301 project
                           </h6>
                           <p className="description mt-3">
                             Argon is a great free UI package based on Bootstrap
@@ -220,7 +220,7 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                          401 project
                           </h6>
                           <p className="description mt-3">
                             Argon is a great free UI package based on Bootstrap
@@ -508,7 +508,7 @@ class Landing extends React.Component {
           </section>
           <section className="section section-lg">
             <Container>
-              <Row className="justify-content-center text-center mb-lg">
+              {/* <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
                   <h2 className="display-3">The amazing Team</h2>
                   <p className="lead text-muted">
@@ -517,8 +517,12 @@ class Landing extends React.Component {
                     potentially record maximum.
                   </p>
                 </Col>
-              </Row>
-              <Row>
+              </Row> */}
+
+
+
+
+              {/* <Row>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
@@ -690,8 +694,15 @@ class Landing extends React.Component {
                   </div>
                 </Col>
               </Row>
+ */}
+
+
             </Container>
+
+
           </section>
+
+{/* 
           <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
@@ -769,7 +780,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
+         
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -861,6 +872,9 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+ */}
+
+
           <Download />
         </main>
         <CardsFooter />
